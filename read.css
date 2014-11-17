@@ -1,0 +1,207 @@
+.read, body {
+  font-family:
+    "Open Sans", "Roboto", "Helvetica Neue", "Helvetica", "Arial",
+    "Lantinghei SC", "Lantinghei TC",
+    "Hiragino Sans GB", "Noto Sans CJK SC", "Source Han Sans CN",
+    "Noto Sans CJK TC", "Source Han Sans TW", "Noto Sans CJK JP",
+    "Source Han Sans JP", "Noto Sans CJK", "Source Han Sans",
+    "Microsoft YaHei", "Microsoft JhengHei",
+    "WenQuanYi Micro Hei", "Droid Sans Fallback", sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #666;
+  /* Enable ligatures. */
+  text-rendering: optimizeLegibility;
+  /* text-spacing: ideograph-alpha; */
+}
+
+.read h1,
+.read h2,
+.read h3,
+.read h4,
+.read h5,
+.read h6 {
+  margin-top: 1em;
+  margin-bottom: 0;
+  /* Avoid rendering problem on Windows with MacType. */
+  /* font-weight: 500; */
+  font-weight: normal;
+  line-height: 1.4;
+  color: #222;
+}
+
+.read h1:first-child {
+  margin-top: 0;
+}
+
+.read h1 {
+  font-size: 2.4em;
+}
+
+.read h2 {
+  font-size: 1.8em;
+}
+
+.read h3 {
+  font-size: 1.5em;
+}
+
+.read h4 {
+  font-size: 1.2em;
+}
+
+.read h5,
+.read h6 {
+  font-size: 1em;
+}
+
+.read a {
+  /* Use "border" because compatibility of "text-decoration-color". */
+  border-bottom: 1px solid #ddd;
+  text-decoration: none;
+  color: #444;
+}
+
+.read a:hover,
+.read a:active,
+.read a:focus {
+  border-bottom-color: #39f;
+  outline: none;
+}
+
+/* TODO: Improve style for "a:focus". */
+
+.read abbr[title] {
+  cursor: help;
+}
+
+.read mark {
+  color: #444;
+  background-color: rgba(255,255,0,0.4);
+}
+
+.read p,
+.read ul,
+.read ol,
+.read dl,
+.read pre,
+.read blockquote {
+  margin: 0.8em 0;
+}
+
+.read ul,
+.read ol {
+  padding-left: 2.4em;
+}
+
+.read ul {
+  list-style: square;
+}
+
+.read li {
+  margin: 0.2em 0;
+}
+
+.read li ul,
+.read li ol {
+  margin: 0.2em 0;
+  padding-left: 2em;
+}
+
+.read dt {
+  margin-bottom: 0.2em;
+  font-weight: bold;
+}
+
+.read dd {
+  margin: 0;
+  margin-bottom: 0.8em;
+}
+
+.read blockquote {
+  padding: 0 1.2em;
+  border-left: 4px solid #e6e6e6;
+}
+
+.read pre {
+  padding: 0.4em 0.8em;
+  line-height: 1.4;
+  border-left: 4px solid #e6e6e6;
+  background-color: #f3f3f3;
+}
+
+.read code,
+.read kbd {
+  display: inline-block;
+  /* Need place CJK fonts here? */
+  font-family:
+    "Menlo", "Monaco", "Source Code Pro", "Consolas", "Inconsolata",
+    "Ubuntu Mono", "DejaVu Sans Mono", "Droid Sans Mono", monospace;
+  font-size: 0.9em;
+  font-weight: normal;
+  color: #444;
+}
+
+.read :not(pre) code,
+.read kbd {
+  margin: 0 0.2em;
+  padding: 0 0.4em;
+  background-color: #f3f3f3;
+}
+
+.read img {
+  display: inline-block;
+  max-width: 100%;
+}
+
+.read figure {
+  margin: 1.6em 3.2em;
+}
+
+.read figure img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.read figcaption {
+  margin-top: 0.4em;
+  font-size: 0.9em;
+  text-align: center;
+}
+
+.read hr {
+  width: 40%;
+  max-width: 200px;
+  margin: 2.4em auto;
+  border: none;
+  border-top: 2px dashed #ccc;
+}
+
+.read table {
+  width: 100%;
+  max-width: 100%;
+  margin: 1.6em 0;
+}
+
+.read tbody > tr:nth-child(odd) {
+  background-color: #f9f9f9;
+}
+
+.read th,
+.read td {
+  padding: 0.4em 0.6em;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.read th {
+  border-bottom: 2px solid #ddd;
+  text-align: left;
+  color: #444;
+}
+
+.read iframe {
+  display: block;
+  max-width: 100%;
+  margin: 1.6em 0;
+}
