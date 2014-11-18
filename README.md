@@ -4,7 +4,7 @@ layout: default
 
 # Read.css
 
-A typography library for making text more readable.
+A typography library for making text more readable. [\[GitHub\]](https://github.com/lixiaoyan/read.css)
 
 ### License
 
