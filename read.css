@@ -69,9 +69,12 @@
   outline: none;
 }
 
-/* TODO: Improve style for "a:focus". */
+.read a:focus {
+  box-shadow: 0 0 3px 1px #39f;
+}
 
 .read abbr[title] {
+  border-bottom: 1px dotted #999;
   cursor: help;
 }
 
