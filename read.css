@@ -114,13 +114,12 @@
 }
 
 .read dt {
-  margin-bottom: 0.2em;
+  margin-bottom: -0.6em;
   font-weight: bold;
 }
 
 .read dd {
-  margin: 0;
-  margin-bottom: 0.8em;
+  margin: 0.8em 0;
 }
 
 .read blockquote {
