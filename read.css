@@ -9,10 +9,12 @@
     "WenQuanYi Micro Hei", "Droid Sans Fallback", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  color: #666;
   /* Enable ligatures. */
   text-rendering: optimizeLegibility;
-  /* text-spacing: ideograph-alpha; */
+}
+
+.read {
+  color: #666;
 }
 
 .read h1,
