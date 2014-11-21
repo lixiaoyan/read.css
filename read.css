@@ -68,11 +68,11 @@
 .read a:active,
 .read a:focus {
   border-bottom-color: #39f;
-  outline: none;
 }
 
-.read a:focus {
-  box-shadow: 0 0 3px 1px #39f;
+.read a:hover,
+.read a:active {
+  outline: none;
 }
 
 .read abbr[title] {
