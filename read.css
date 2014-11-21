@@ -14,7 +14,7 @@
 }
 
 .read {
-  color: #666;
+  color: #444;
 }
 
 .read h1,
@@ -61,7 +61,7 @@
   /* Use "border" because compatibility of "text-decoration-color". */
   border-bottom: 1px solid #ddd;
   text-decoration: none;
-  color: #444;
+  color: #222;
 }
 
 .read a:hover,
@@ -81,7 +81,7 @@
 }
 
 .read mark {
-  color: #444;
+  color: #222;
   background-color: rgba(255,255,0,0.4);
 }
 
@@ -143,7 +143,7 @@
     "Ubuntu Mono", "DejaVu Sans Mono", "Droid Sans Mono", monospace;
   font-size: 0.9em;
   font-weight: normal;
-  color: #444;
+  color: #222;
 }
 
 .read :not(pre) code,
@@ -189,7 +189,7 @@
 }
 
 .read tbody > tr:nth-child(odd) {
-  background-color: #f9f9f9;
+  background-color: #f8f8f8;
 }
 
 .read th,
