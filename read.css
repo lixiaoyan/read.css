@@ -14,6 +14,7 @@
 }
 
 .read {
+  word-wrap: break-word;
   color: #444;
 }
 
