@@ -132,7 +132,6 @@
 
 .read pre {
   padding: 0.4em 0.8em;
-  line-height: 1.4;
   border-left: 4px solid #e6e6e6;
   background-color: #f3f3f3;
 }
@@ -146,6 +145,7 @@
     "Ubuntu Mono", "DejaVu Sans Mono", "Droid Sans Mono", monospace;
   font-size: 0.9em;
   font-weight: normal;
+  line-height: 1.4;
   color: #222;
 }
 
