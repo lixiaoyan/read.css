@@ -11,8 +11,17 @@
     "WenQuanYi Micro Hei", "Droid Sans Fallback", sans-serif;
   font-size: 16px;
   line-height: 1.6;
-  /* Enable ligatures. */
+  /* Enable ligatures & kerning. */
   text-rendering: optimizeLegibility;
+  -webkit-font-feature-settings: "liga" on, "kern" on;
+  -moz-font-feature-settings: "liga" on, "kern" on;
+  font-feature-settings: "liga" on, "kern" on;
+  -webkit-font-variant-ligatures: common-ligatures;
+  -moz-font-variant-ligatures: common-ligatures;
+  font-variant-ligatures: common-ligatures;
+  -webkit-font-kerning: normal;
+  -moz-font-kerning: normal;
+  font-kerning: normal;
 }
 
 .read {
