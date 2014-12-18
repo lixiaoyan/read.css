@@ -82,7 +82,6 @@
   border-bottom-color: #39f;
 }
 
-.read a:hover,
 .read a:active {
   outline: none;
 }
